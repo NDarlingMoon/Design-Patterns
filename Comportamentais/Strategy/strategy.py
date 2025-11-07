@@ -11,7 +11,7 @@ class IExport(ABC):
 
 class CSVExport(IExport):
     def __init__(self):
-        super.__init__(self)
+        super.__init__()
 
     def export(self, df, output_path):
         try:
